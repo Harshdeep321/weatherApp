@@ -36,7 +36,11 @@ export default function Weather({ weatherData, fetchWeatherData }) {
                 source={backgroundImage}
                 style={styles.backgroundImg}
                 resizeMode='cover'
+
             >
+            
+            {/* search bar Route */}
+
                 <SearchBar fetchWeatherData={fetchWeatherData} />
 
                 <View style={{alignItems: 'center' }}>

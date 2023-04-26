@@ -31,7 +31,7 @@ export default function App() {
     }
 
     useEffect(() => {
-        fetchWeatherData('Mumbai');
+        fetchWeatherData('indore');
     }, [])
     
 
